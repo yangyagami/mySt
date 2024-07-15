@@ -5,7 +5,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "Jetbrains Mono NL Semibold:pixelsize=12:antialias=true:autohint=true:style=bold";
+static char *font = "JetBrains Mono NL Medium:pixelsize=12:antialias=true:autohint=true:style=bold";
 static int borderpx = 2;
 
 /*
@@ -16,7 +16,7 @@ static int borderpx = 2;
  * 4: value of shell in /etc/passwd
  * 5: value of shell in config.h
  */
-static char *shell = "/bin/sh";
+static char *shell = "/usr/bin/fish";
 char *utmp = NULL;
 /* scroll program: to enable use a string like "scroll" */
 char *scroll = NULL;
@@ -107,7 +107,7 @@ static const char *colorname[] = {
 	  [5] = "#ff79c6", /* magenta */
 	  [6] = "#8be9fd", /* cyan    */
 	  [7] = "#bbbbbb", /* white   */
-	
+
 	  /* 8 bright colors */
 	  [8]  = "#44475a", /* black   */
 	  [9]  = "#ff5555", /* red     */
@@ -117,7 +117,7 @@ static const char *colorname[] = {
 	  [13] = "#ff79c6", /* magenta */
 	  [14] = "#8be9fd", /* cyan    */
 	  [15] = "#ffffff", /* white   */
-	
+
 	  /* special colors */
 	  [256] = "#282a36", /* background */
 	  [257] = "#f8f8f2", /* foreground */
