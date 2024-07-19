@@ -99,33 +99,6 @@ unsigned int tabspaces = 8;
 float alpha = 0.7;
 
 /* Terminal colors (16 first used in escape sequence) */
-<<<<<<< HEAD
-static const char *colorname[] = {
-	  /* 8 normal colors */
-	  [0] = "#000000", /* black   */
-	  [1] = "#ff5555", /* red     */
-	  [2] = "#50fa7b", /* green   */
-	  [3] = "#f1fa8c", /* yellow  */
-	  [4] = "#bd93f9", /* blue    */
-	  [5] = "#ff79c6", /* magenta */
-	  [6] = "#8be9fd", /* cyan    */
-	  [7] = "#bbbbbb", /* white   */
-
-	  /* 8 bright colors */
-	  [8]  = "#44475a", /* black   */
-	  [9]  = "#ff5555", /* red     */
-	  [10] = "#50fa7b", /* green   */
-	  [11] = "#f1fa8c", /* yellow  */
-	  [12] = "#bd93f9", /* blue    */
-	  [13] = "#ff79c6", /* magenta */
-	  [14] = "#8be9fd", /* cyan    */
-	  [15] = "#ffffff", /* white   */
-
-	  /* special colors */
-	  [256] = "#282a36", /* background */
-	  [257] = "#f8f8f2", /* foreground */
-	  "black",
-=======
 typedef struct {
 	const char* const colors[258]; /* terminal colors */
 	unsigned int fg;               /* foreground */
@@ -194,7 +167,6 @@ static const ColorScheme schemes[] = {
 	  "#928374", "#9d0006", "#79740e", "#b57614",
 	  "#076678", "#8f3f71", "#427b58", "#3c3836",
 	  [256]="#3c3836", "#555555"}, 15, 0, 256, 257},
->>>>>>> 12128fad139e27e67218749d688d63144e129378
 };
 
 static const char * const * colorname;
